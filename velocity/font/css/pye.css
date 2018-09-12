@@ -1,0 +1,215 @@
+.section{height: 100vh;}
+@font-face{font-family:'Kelson Sans';src:url('../font/KelsonSans-Light.eot');src:local('../font/Kelson Sans Light'), local('KelsonSans-Light'),
+url('../font/KelsonSans-Light.eot?#iefix') format('embedded-opentype'),
+url('../font/KelsonSans-Light.woff2') format('woff2'),
+url('../font/KelsonSans-Light.woff') format('woff'),
+url('../font/KelsonSans-Light.ttf') format('truetype'),
+url('../font/KelsonSans-Light.svg#KelsonSans-Light') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Kelson Sans Bold';src:url('../font/KelsonSans-Bold.eot');src:local('../font/Kelson Sans Bold'), local('KelsonSans-Bold'),
+url('../font/KelsonSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('../font/KelsonSans-Bold.woff2') format('woff2'),
+url('../font/KelsonSans-Bold.woff') format('woff'),
+url('../font/KelsonSans-Bold.ttf') format('truetype'),
+url('../font/KelsonSans-Bold.svg#KelsonSans-Bold') format('svg');font-weight:bold;font-style:normal;font-weight:300;}
+div.mensajes{margin-top:2vh;}
+.newsletter,.link_pye{cursor:pointer;}
+@media screen and (orientation:portrait){.land{display:none;}
+.table-bordered tr, .table-bordered td{border-color:black !important;}
+.full_pye{padding:0px;height:100vh;}
+.bg-primera{background:#000000;}
+.bg-segunda{background:#FFFFFF;}
+.bg-footer{background:#FFFF33;}
+.pad15{padding:15px;}
+.pye_head{height:30%;padding-top:5vh;}
+.pye_body{height:30%;}
+.pye_footer{height:40%;}
+.pye_head_productos{height:25%;}
+.pye_body_productos{height:35%;}
+.pye_body_productos_titulo{min-height:15%;margin-bottom:5%;}
+.pye_body_productos_img{max-height:10%;}
+.pye_footer_productos{height:20%;margin-top:5%;}
+.pye_body_fin{height:25%;}
+.pye_head_footer{height:15%;}
+.pye_footer_productos p{margin:0px;}
+.kregular{color:white;font-family:'Kelson Sans Bold';}
+.klight{color:black;font-family:'Kelson Sans';}
+.text_pye_contacto{margin-right:3vw;font-size:5vw;}
+.text_pye_portada{font-size:8vw;}
+.text_pye_prod_title{font-size:7vw;color:black;}
+.sub_text_pye_prod_title{font-size:6vw;color:black;}
+.copy{font-size:4vw;color:black;}
+.text_pye_prod_title_final{font-size:6vw;color:black;}
+.pye_body_fin_img{}
+.bg-img-prod{width:60vw;height:60vw;background-color:#FFFF33;margin-left:20vw;}
+#logo_portada{margin:auto;width:100%;}
+.img-prod{margin:37% auto;width:50%;}
+.img-footer{margin:5% auto;width:50%;}
+.pantalla{height:100%;}
+.social_footer{margin:0px auto;}
+.firma{margin-top:2vh;}
+.divisor{color:black;margin:0px 0px 10px 0px;border-color:black;}
+.social{border:2px solid black;}
+.cont_social{min-height:10vh;padding:15px;}
+.pye_footer_land{display:none;}
+.pye_footer_productos_land{display:none;}
+}
+@media screen and (orientation:landscape){.port{display:none;}
+.table-bordered tr, .table-bordered td{border-color:black !important;}
+.full_pye{padding:0px;height:100vh;}
+.bg-primera{background:#000000;}
+.bg-segunda{background:#FFFFFF;}
+.bg-footer{background:#FFFF00;}
+.pad15{padding:15px;}
+.pye_head{height:30%;padding-top:5vh;}
+.pye_body{height:30%;}
+.pye_footer{height:40%;}
+.pye_head_footer{height:15%;}
+.pye_body_productos_titulo{min-height:15%;}
+.pye_body_fin{height:25%;}
+.pye_footer_productos{height:20%;margin-top:0vh;}
+.pye_footer_productos p{margin:0px;}
+.kregular{color:white;font-family:'Kelson Sans Bold';}
+.klight{color:black;font-family:'Kelson Sans';}
+.text_pye_contacto{margin-right:3vw;font-size:5vw;}
+.text_pye_portada{font-size:5vw;}
+.text_pye_prod_title{font-size:5vw;color:black;}
+.sub_text_pye_prod_title_land{font-size:3vw;color:black;}
+.sub_text_pye_prod_title_land.footer_land{font-size:4vw;color:black;}
+.copy{font-size:2vw;color:black;}
+.text_pye_prod_title_final_land.footer_land{font-size:8vh;color:black;}
+.text_pye_prod_title_final_land.fotter_land_table{font-size:6vh;color:black;}
+.lat_table{margin-top:15px;}
+.pye_footer_fin.land p{margin-bottom:0px;}
+.pye_body_fin_img{}
+.bg-img-prod{background-color:yellow;}
+#logo_portada{margin:auto;width:70%;}
+.img-prod{margin:1px auto;width:30%;}
+.img-footer.footer_img_land{margin:0% auto;width:20%;}
+.pantalla{height:100%;}
+.social_footer{margin:0px auto;}
+.firma{margin-top:2vh;}
+.divisor{color:black;margin:10px 0px 10px 0px;border-color:black;}
+.social{border:2px solid black;}
+.cont_social{min-height:10vh;padding:15px;}
+.pye_footer{display:none;}
+.logo_chat{cursor:pointer;width:8vw;}
+.cont_desk_logo{}
+.desk_logo{margin:0px auto;height:10vh;}
+.pye_footer_land p{height:30%;padding-top:10vh;}
+.pye_footer_productos{display:none;}
+.pye_footer_productos_land{margin-top:3vw;}
+}
+@media screen and (min-width:1024px) and (max-width:1600px){.vista_prod{display:inline-flex;}
+.small_device{display:none;}
+.device_full{display:none;}
+.land{display:none;}
+.table-bordered tr, .table-bordered td{border-color:white !important;}
+.full_pye{padding:0px;height:100vh;}
+.bg-primera{background:#000000;}
+.bg-segunda{background:#FFFFFF;}
+.bg-footer{background:#FFFF33;}
+.pad15{padding:15px;}
+.pye_head{height:30%;padding-top:5vh;}
+.pye_body{height:30%;}
+.pye_footer{height:40%;}
+.pye_head_productos_desk{height:10vh;background-color:black;}
+.pye_body_productos_desk{height:70vh;}
+.pye_body_productos_titulo_desk{margin-top:2vh;margin-bottom:2vh;}
+.pye_body_productos_img{max-height:10%;}
+.pye_footer_productos_desk{height:20vh;background-color:black !important;padding-top:7vh;}
+.pye_body_fin{height:25%;}
+.pye_head_footer{height:15%;}
+.pye_footer_productos p{margin:0px;}
+.kregular{color:white;font-family:'Kelson Sans Bold';}
+.klight{color:black;font-family:'Kelson Sans';}
+.logo_chat_desk{margin-top:1vh;width:7vh;cursor:pointer;}
+.cont_text_pye_contacto_desk{margin-top:3vh;}
+.text_pye_contacto_desk{text-align:right;font-size:1.5vw;}
+.text_pye_portada{font-size:8vw;}
+.text_pye_prod_title_desk{font-size:2.5vw;color:black;}
+.sub_text_pye_prod_title{font-size:6vw;color:black;}
+.copy{font-size:4vw;color:black;}
+.text_pye_prod_title_final{font-size:6vw;color:black;}
+table.table.table-bordered{}
+.lat_table_desk{color:white !important;}
+.text_pye_prod_title_final_desk_table{font-size:2vw;color:white !important;}
+.text_pye_prod_title_final_desk{font-size:1.5vw;color:black !important;}
+.sub_text_pye_prod_title_top_table_desk{font-size:1.5vw;color:white !important;}
+.sub_text_pye_prod_title_desk{font-size:1.5vw;color:black;}
+.pye_body_fin_img{}
+.bg-img-prod_desk{width:20vw;height:20vw;background-color:#FFFF33;}
+.cont_tex_footer{margin-top:1.5vh;}
+.pad5{margin:5px !important;}
+#logo_portada{margin:auto;width:100%;}
+.title_prod_desk{padding-top:1vh;color:black;font-size:2vw;}
+.sub_title_prod_desk.prim{padding-top:3vh;}
+.sub_title_prod_desk{color:black;font-size:1.5vw;}
+.img-prod_desk{margin:0px auto;width:40%;}
+.img-footer{margin:5% auto;width:50%;}
+.pantalla{height:100%;}
+.social_footer{margin:0px auto;}
+.firma{margin-top:2vh;}
+.divisor{color:black;margin:0px 0px 10px 0px;border-color:black;}
+.social{border:2px solid black;}
+.cont_social{min-height:10vh;padding:15px;}
+.pye_footer_land{display:none;}
+.pye_footer_productos_land{display:none;}
+}
+@media screen and (min-width:1600px) and (max-width:6000px){.vista_prod{display:inline-flex;}
+.device_full{display:block;}
+.small_device{display:none;}
+.device_med{display:none;}
+.land{display:none;}
+.table-bordered tr, .table-bordered td{border-color:white !important;}
+.full_pye{padding:0px;height:100vh;}
+.bg-primera{background:#000000;}
+.bg-segunda{background:#FFFFFF;}
+.bg-footer{background:#FFFF33;}
+.pad15{padding:15px;}
+.pye_head{height:30%;padding-top:5vh;}
+.pye_body{height:30%;}
+.pye_footer{height:40%;}
+.pye_head_productos_desk{height:10vh;background-color:black;}
+.pye_body_productos_desk{height:64vh;padding:5vh;}
+.pye_body_productos_titulo_desk{margin-top:6vh;margin-bottom:5vh;}
+.pye_body_productos_img{max-height:10%;}
+.pye_footer_productos_desk{height:26vh;background-color:black !important;padding-top:7vh;}
+.pye_body_fin{height:25%;}
+.pye_head_footer{height:15%;}
+.pye_footer_productos p{margin:0px;}
+.kregular{color:white;font-family:'Kelson Sans Bold';}
+.klight{color:black;font-family:'Kelson Sans';}
+.logo_chat_desk{margin:1vh auto;width:7vh;cursor:pointer;}
+.cont_text_pye_contacto_desk{margin-top:3vh;}
+.text_pye_contacto_desk{margin-top:1vw;text-align:right;font-size:1.2vw;}
+.text_pye_portada{font-size:8vw;}
+.text_pye_prod_title_desk{font-size:2vw;color:black;}
+.sub_text_pye_prod_title{font-size:6vw;color:black;}
+.copy{font-size:4vw;color:black;}
+.text_pye_prod_title_final{font-size:6vw;color:black;}
+.cont_desk_table{}
+.lat_table_desk{color:white !important;}
+.text_pye_prod_title_final_desk_table{font-size:2vw;color:white !important;}
+.text_pye_prod_title_final_desk{font-size:1.5vw;color:black !important;}
+.sub_text_pye_prod_title_top_table_desk{font-size:1.2vw;color:white !important;}
+.sub_text_pye_prod_title_desk{font-size:1vw;color:black;}
+.pye_body_fin_img{}
+.bg-img-prod_desk{width:15vw;height:15vw;background-color:#FFFF33;}
+.cont_tex_footer{margin-top:3vh;}
+.pad5{margin:5px !important;}
+#logo_portada{margin:auto;width:100%;}
+.title_prod_desk{padding-top:1vh;color:black;font-size:1.5vw;}
+.sub_title_prod_desk{padding-top:0vh;color:black;font-size:1.1vw;}
+.sub_title_prod_desk.prim{padding-top:3vh;}
+.img-prod_desk{padding-top:3vh;margin:0px auto;width:30%;}
+.img-footer{margin:5% auto;width:50%;}
+.pantalla{height:100%;}
+.social_footer{margin:0px auto;}
+.firma{margin-top:2vh;}
+.divisor{color:black;margin:0px 0px 10px 0px;border-color:black;}
+.social{border:2px solid black;}
+.cont_social{min-height:10vh;padding:15px;}
+.pye_footer_land{display:none;}
+.pye_footer_productos_land{display:none;}
+.pye_body_productos_titulo_desk{margin-top:2vh;margin-bottom:2vh;}
+}

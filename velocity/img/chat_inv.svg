@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="464.7685242" height="158.3994141" y="-93.7460938" x="-367.8105164" bottomLeftOrigin="true">
+			</sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M52.2744141,33.1308594H9.3920898c-2.4916992,0-4.5610352,1.7788086-5.0068359,4.128418H4.2924805v0.9472656v36.8891602v18.0205078
+	l14.3066406-12.9453125h33.675293c2.8164063,0,5.0986328-2.2714844,5.0986328-5.0751953V38.206543
+	C57.3730469,35.4042969,55.0908203,33.1308594,52.2744141,33.1308594z"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M30.8334961,12.3789063h59.7768555c2.4882813,0,4.5585938,1.7763672,5.0058594,4.1259766h0.0917969v0.9492188v36.8876953v18.0205078
+	L81.4013672,59.4179688H30.8334961c-2.8164063,0-5.1000977-2.2724609-5.1000977-5.0761719V17.4541016
+	C25.7333984,14.6503906,28.0170898,12.3789063,30.8334961,12.3789063z"/>
+<line stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="78.1005859" y1="42.3701172" x2="47.2944336" y2="42.3701172"/>
+<line stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="78.1005859" y1="28.8349609" x2="47.2944336" y2="28.8349609"/>
+</svg>
