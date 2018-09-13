@@ -36,12 +36,6 @@
   <link href="css/pye.css" rel="stylesheet" />
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<?php
-if(isset($_GET['whatsapp'])) {
-    header("http://bit.ly/2mpTBjj");
-}
-
-?>
 
 
   
@@ -106,65 +100,10 @@ if(isset($_GET['whatsapp'])) {
   </head>
   <body>
 
-
-
-<!-- <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5&appId=1676318962637411";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script> -->
-<?php 
-
-if (isset($_GET["quiero_mi_web"])){
-	
-	$contacto=true;
-	
-}else{
-	$contacto=false;
-	
-}
-
-
-if (isset($_GET["pago"])){
-	
-	$i=htmlspecialchars($_GET["pago"]);
-	$enproceso= false;
-	$pagado= false;
-	
-	switch ($i) {
-    case 'ok':
-        $pagado=true;
-        break;
-    case 'en_proceso':
-        $enproceso=true;
-        break;
-    
-	}
-	
-}else {
-$enproceso= false;
-$pagado= false;
-
-} 
-?>
-
   <div id="fullpage" class="small_device">
     <div class="bg-primera section">   <!-- PORTADA -->
 		<div class="container pantalla ">
-		<?php if($pagado){
-			
-				echo "<div class='mensaje_pago alert alert-success'><span data-toggle='modal' data-target='#myModal'> RECIBIMOS TU PAGO, Contactanos!</span></div>";
-			
-			} else if($enproceso) {
-			
-				echo "<div class='mensaje_pago alert alert-info'><span data-toggle='modal' data-target='#myModal'> TU PAGO SE ESTA PROCESANDO. </span></div>";
-			
-			}
-		?>
+		
 			 <div class="row pye_head">
 				<div class="col-xs-9 text-right">
 					<span class="kregular text_pye_contacto link_pye" data-toggle="modal" data-target="#myModal">Te ayudamos?</span>
@@ -602,45 +541,49 @@ $pagado= false;
     <!-- Wrapper for slides --> 
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        
+        <a href="http://www.agroserc.com/">
 		<img class="img img-responsive xs" src="img/logo-prunita.png" alt="PRUNITA" >
+		</a>
       </div>
 
       <div class="item">
+	  <a href="http://www.agroserc.com/">
         <img class="logo_clientes xs" src="img/logo-chile.png" alt="AGROSER CHILE" >
+		</a>
       </div>
     
 	 <div class="item">
+	 <a href="https://inta.gob.ar/">
         <img class="logo_clientes xs" src="img/inta.png" alt="INTA" >
+		</a>
       </div>
 	<div class="item">
-        <img class="logo_clientes" src="img/rancho.png" title="Rancho San Rafael" alt="Rancho San Rafael"/>
+        <a href="http://www.papasnomades.com/">
+			<img class="img img-responsive xs" src="img/logopns.png" title="Papas Nomades" alt="Papas Nomades"/>
+		</a>
       </div>  
 	  
 	<div class="item">
+	 <a href="http://www.corralongomensoro.com/">
         <img class="img img-responsive xs" src="img/cgomensoro.png" alt="CORRALON GOMENSORO" >
       </div>
-	  
+	  </a>
       <div class="item">
+	   <a href="http://www.agroserc.com/">
         <img class="logo_clientes"  src="img/logo-frutagro.png" alt="FRUTAGRO" >
+		</a>
       </div>
 
-      
-	  <div class="item">
-        <img class="logo_clientes xs " src="img/7tropillas.png" alt="7 TROPILLAS" >
-      </div>
-    
       
 
       <div class="item">
+	   <a href="http://www.delcarmenedu.ar/">
         <img class="img img-responsive xs" src="img/cdc.png" alt="COLEGIO DEL CARMEN" >
+		</a>
 		<span> Colegio del Carmen</span>
       </div>
 	  
-       <div class="item">
-       <img class="img img-responsive logo_chat logo_clientes  " src="img/bitcoin1.png" />
-		
-      </div>
+       
 	  
 
     </div>
@@ -661,10 +604,10 @@ $pagado= false;
 			<div class="col-xs-6">
 				
 					<span class="klight copy"><i class="fa fa-registered"></i> ESTUDIO PYE <?php echo date('Y'); ?></span>
-				</div>
-				<div class="col-xs-6">
+			</div>
+			<div class="col-xs-6">
 					<img class="img img-responsive logo_chat " src="img/bitcoin1.png" />
-				</div>
+			</div>
 							
 			</div>
 			<div class="row pye_footer_fin text-center land ">
@@ -718,23 +661,10 @@ $pagado= false;
 			</div>
 		</div>
     </div>
-</div>
+	</div>
 	<div id="desk">
 		<div class="container-fluid section">
-		<?php if($pagado){
-			
-				echo "<div class='mensaje_pago alert alert-success'>
-				
-				<span data-toggle='modal' data-target='#myModal'>  RECIBIMOS TU PAGO! Contactanos</span>
-					
-				</div>";
-			
-			} else if($enproceso) {
-			
-				echo "<div class='mensaje_pago alert alert-info'><span data-toggle='modal' data-target='#myModal'> TU PAGO SE ESTA PROCESANDO. </span></div>";
-			
-			}
-		?>
+		
 			<div class="row pye_head_productos_desk">
 				<div class="col-xs-2 cont_desk_logo push-right">
 						<img class="img img-responsive desk_logo" src="img/logo_desk.svg" />
@@ -804,27 +734,27 @@ $pagado= false;
 									</p>
 								</div>
 							</div>
-							<!-- <div class="bg-img-prod_desk pad5">
-								<div class="prod">
-									<p>
-										<div class="kregular title_prod_desk text-center">Store</div>
-									</p>
-									<img class="img img-responsive img-prod_desk" src="img/store1.svg" />
-								
-									<div class="klight sub_title_prod_desk text-center prim">Tu espacio comercial creará</div>
-							
-									<div class="klight sub_title_prod_desk text-center">una experiencia única y original</div>
-								</div>
-							
-								<div class="prod_desc" style="display: none;" >
-									<p>Mobiliario
-									</p>
-									<p>Iluminación
-									</p>
-									<p>Gráficas
-									</p>
+							<!--<div class="bg-img-prod_desk pad5">
+									<div class="prod">
+										<p>
+											<div class="kregular title_prod_desk text-center">Store</div>
+										</p>
+										<img class="img img-responsive img-prod_desk" src="img/store1.svg" />
 									
-								</div>
+										<div class="klight sub_title_prod_desk text-center prim">Tu espacio comercial creará</div>
+								
+										<div class="klight sub_title_prod_desk text-center">una experiencia única y original</div>
+									</div>
+								
+									<div class="prod_desc" style="display: none;" >
+										<p>Mobiliario
+										</p>
+										<p>Iluminación
+										</p>
+										<p>Gráficas
+										</p>
+										
+									</div>
 							</div> -->
 							<div class="bg-img-prod_desk pad5">
 								<div class="prod" >
@@ -868,25 +798,34 @@ $pagado= false;
 					<div class="row">
 							
 							
-							
+							<a href="http://www.agroserc.com/es/">
 							<img class="logo_clientes" src="img/logo-prunita.png" title="Prunita" alt="Prunita "/>
-					
+							</a>
+							<a href="https://inta.gob.ar/">
 							<img class="logo_clientes" src="img/inta.png" title="Instituto Nacional de Tecnología Agropecuaria | AER Malargue" alt="Inta"/>
-							
+							</a>
+							<a href="http://www.agroserc.com/es/">
 							<img class="logo_clientes" src="img/logo-chile.png" title="Agroser Chile"  alt="Agroser Chile" />
-						
-							<img class="logo_clientes" src="img/7tropillas.png" title="Cabalgatas 7 Tropillas"  alt="Cabalgatas 7 Tropillas" />
-							
-							<img class="logo_clientes" src="img/rancho.png" title="Rancho San Rafael" alt="Rancho San Rafael"/>
-							
-							<img class="logo_clientes" src="img/logo-frutagro.png" title="Frutagro" alt="Frutagro"/>
-							
+							</a>
+							<a href="http://www.papasnomades.com/">
+							<img class="logo_clientes" src="img/logopns.png" title="Papas Nomades" alt="Papas Nomades"/>
+							</a>
+							<a href="http://www.rodamientoscuyo.com">
+							<img class="logo_clientes" src="img/rc.png" title="Rodamientos Cuyo" alt="Colegio del Carmen "/>
+							</a>
+							<a href="http://proveedortextil.com/">
+							<img class="logo_clientes" src="img/logo-unittex.png" title="Proveedor Textil" alt="Frutagro"/>
+							</a> 
+							<a href="http://www.corralongomensoro.com/">
 							<img class="logo_clientes" src="img/cgomensoro3.png" title="Corralon Gomensoro" alt="Corralon Gomensoro"/>
-							
+							</a>
+							<a href="http://www.delcarmen.edu.ar">
 							<img class="logo_clientes" src="img/cdc.png" title="Colegio del Carmen" alt="Colegio del Carmen "/>
-
-							<img class="img img-responsive logo_chat logo_clientes  " src="img/bitcoin1.png" />
+							</a>
 							
+							
+							<img class="img img-responsive logo_chat logo_clientes  " src="img/bitcoin1.png" />
+						
 
 											
 							
@@ -905,7 +844,6 @@ $pagado= false;
 	</div>
 	
 	
-
 
 
 
@@ -988,7 +926,10 @@ $pagado= false;
 <script src="js/velocity.ui.js"></script>
 <script src="js/animaciones.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script src="js/jquery.fullpage.js"></script>
+<script src='js/magic.js'></script>
 
 <script>
 	$('#myCarousel').carousel({
